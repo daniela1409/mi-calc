@@ -11,6 +11,6 @@ Sonar  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?
 
 [![Duplicated Lines Density](https://sonarcloud.io/api/project_badges/measure?project=mi-calc&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=mi-calc)
 
-[![Coverage](https://sonarcloud.io/api/badges/measure?project=mi-calc&metric=coverage)](https://sonarcloud.io/dashboard?id=mi-calc)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=mi-calc&metric=coverage)](https://sonarcloud.io/dashboard?id=mi-calc)
 
 
