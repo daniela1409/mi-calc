@@ -14,3 +14,6 @@ Sonar  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=mi-calc&metric=coverage)](https://sonarcloud.io/dashboard?id=mi-calc)
 
 [![Coverage Status](https://coveralls.io/repos/github/daniela1409/mi-calc/badge.svg)](https://coveralls.io/github/daniela1409/mi-calc)
+
+[![Known
+Vulnerabilities](https://snyk.io/test/github/daniela1409/mi-calc/badge.svg)](https://snyk.io/test/github/daniela1409/mi-calc)
