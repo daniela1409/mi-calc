@@ -4,7 +4,7 @@
   "description": "calculadora simple en node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/daniela1409/mi-calc/issues"
   },
-  "homepage": "https://github.com/daniela1409/mi-calc#readme"
+  "homepage": "https://github.com/daniela1409/mi-calc#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "save-dev": "0.0.1-security"
+  }
+
+
+
 }
