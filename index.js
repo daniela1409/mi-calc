@@ -1,8 +1,108 @@
 'use strict';
-var calculator = require('./app/calculator');
-var a = 3;
-var b = 5;
-console.log(`Add ${a} + ${b} = ${calculator.add(a,b)}`);
-console.log(`Minus ${a} - ${b} = ${calculator.minus(a,b)}`);
-console.log(`Multiply ${a} * ${b} = ${calculator.multiply(a,b)}`);
-console.log(`Divide ${a} / ${b} = ${calculator.divide(a,b)}`);
+
+
+
+var expect = require("chai").expect;
+
+
+var calculator = require("../app/calculator");
+
+
+
+
+
+
+
+describe("Calculator - Test", function() {
+
+
+
+
+
+
+
+  describe("Testing the Operations", function() {
+
+
+
+
+
+
+
+    it("Testing the sum operation", function() {
+
+
+      expect(calculator.add(1,1)).to.equal(1+1);
+
+
+    });
+
+
+
+
+
+
+
+    it("Testing the minus operation", function() {
+
+
+      expect(calculator.minus(1,1)).to.equal(1-1);
+
+
+    });
+
+
+
+
+
+
+
+    it("Testing the multiply operation", function() {
+
+
+      expect(calculator.multiply(3,3)).to.equal(3*3);
+
+
+    });
+
+
+
+
+
+
+
+    it("Testing the divide operation", function() {
+
+
+      expect(calculator.divide(3,3)).to.equal(3/3);
+
+
+    });
+
+
+
+
+
+
+
+    it("Testing the divide operation by zero", function() {
+
+
+      const expectedError = new Error("Can't divide by zero");
+
+
+      expect(calculator.divide(3,0).message).to.equal(expectedError.message);
+
+
+    });
+
+
+
+
+
+
+
+  });
+
+
+});
