@@ -4,7 +4,8 @@
   "description": "calculadora simple en node",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/daniela1409/mi-calc#readme",
   "devDependencies": {
+    "istanbul": "^1.1.0-alpha.1",
     "mocha": "^7.1.1"
   },
   "dependencies": {
