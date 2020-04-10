@@ -8,3 +8,5 @@ addons:
 script:
   - npm run cover
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=daniela1409 -Dsonar.projectKey=mi-calc -Dsonar.sources='./app' -X
+after_success:
+ - npm run coveralls
