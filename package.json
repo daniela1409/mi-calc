@@ -1,0 +1,19 @@
+{
+  "name": "mi-calc",
+  "version": "1.0.0",
+  "description": "calculadora simple en node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniela1409/mi-calc.git"
+  },
+  "author": "Daniela Osorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniela1409/mi-calc/issues"
+  },
+  "homepage": "https://github.com/daniela1409/mi-calc#readme"
+}
